@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;  background-color: rgb(3, 3, 57);
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.wrapper-class {
+    text-align: center;
+    display: flex;
+    width: 330px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    /* border: 2px solid gray; */
+    box-shadow: 2px 2px 2px 2px white;
+    border-radius: 20px;
+    background-color: bisque;
+}
+textarea#textarea {
+  border: none;
+}
+button#check {
+  background-color: rgb(3,3,57);
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+div#result {
+  font-size: large;
+  font-weight: bold;
+}
